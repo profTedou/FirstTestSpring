@@ -46,3 +46,11 @@ public class Person {
         this.phoneNumber = phoneNumber;
     }
 }
+
+/*Bien evidemment on cree une class de toutes nos entités et on precise la dependance Entity
+* pour que la table de cette classe se cree automatiquement en BD
+* On profite au passage pour lui creer des methodes de base pour la manipuler à l'instar des getter et setter*/
+
+/*@Table permet de preciser le nom qu'aura l'ntiite de classe Person dans la BD à l'occurence "persons"*/
+
+/*@ID permet de generer automatiquement une valeur auto-incrementer*/
